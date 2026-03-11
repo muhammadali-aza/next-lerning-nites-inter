@@ -6,4 +6,4 @@ export default async function CatchAllRouting({params}) {
             <p>This page will catch all routes that are not defined in the application.</p>
         </div>
     )
-}
+} 

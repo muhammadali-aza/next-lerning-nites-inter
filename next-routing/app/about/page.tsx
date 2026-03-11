@@ -1,11 +1,7 @@
-import Link from "next/link";
-
-export default async function About({params}) { 
-    console.log("Params", await params);
+export default  function About() { 
     return (
         <div>
             <h1>About Page</h1>
-            <Link href="/">Go to Home Page </Link>
         </div>
     )
 }
