@@ -1,10 +1,10 @@
 import Link from "next/link";
 
-export default async function About({params}) { 
-    console.log("Params", await params);
+export default function Blog() {
     return (
         <div>
-            <h1>About Page</h1>
+            <h1>Blog Page</h1>
+            <Link href="/about">Go to About Page </Link>
             <Link href="/">Go to Home Page </Link>
         </div>
     )
