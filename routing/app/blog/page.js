@@ -3,7 +3,6 @@ import { getPosts } from './lib/api';
 
 export default async function Page() {
   const posts = await getPosts();
-
   return (
     <div>
       <h1>Blog Page</h1>
